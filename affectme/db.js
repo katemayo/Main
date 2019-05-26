@@ -8,7 +8,7 @@ const Schema = mongoose.Schema({
 
 mongoose.model('Search', searchSchema)
 
-mongoose.connect('mongodb://katemayo:mongoFish#1@ds131512.mlab.com:31512/gethappy')
+mongoose.connect('mongodb+srv://katiemayo:<mongoFish#1>@cluster0-ygm8p.mongodb.net/test?retryWrites=true')
 
 const db = mongoose.connection
 
@@ -21,3 +21,5 @@ onclick(button, counter++)
 //ultimate idea - have different ways it can make you feel besides good, users vote if it worked
 //users tag links to help make others feel that kinda way
 //collect info about how people are feeling, how they want to be feeling, and whether certain things work
+//"what kind of feels do you want to give"
+//make it so you can login and view feels you've tagged/voted on
