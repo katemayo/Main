@@ -1,3 +1,3 @@
-# katemayo.github.io
+# Portfolio
 
-This is where I store anything I want to practice publishing.
+Visit https://katemayo.github.io/Portfolio/index.html to see my work. This is always a work in progress.
